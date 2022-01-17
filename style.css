@@ -21,3 +21,41 @@ body{
     padding-bottom: 5%;
 }
 
+/*---------------- 
+     img styles 
+-------------------*/
+.image img {
+
+    
+}
+
+.image {
+    padding-right: 30px;
+}
+
+.journy a {
+    text-decoration: none;
+}
+
+.link-button{
+    background-color: #E02C6D;
+    padding: 10px 40px;
+    border-radius: 41px;
+    color: mintcream;
+
+}
+
+.fa-arrow-right {
+    padding-left: 2%;
+    width: 20px;
+
+}
+
+/* logos */
+
+.logos{
+    display: flex;
+    margin: 10%;
+    justify-content: center;
+    grid-gap: 5%;
+}
