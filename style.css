@@ -58,4 +58,82 @@ body{
     margin: 10%;
     justify-content: center;
     grid-gap: 5%;
+
+
+}
+
+
+/*-------------------------------------- 
+       popular collection part 
+----------------------------------------*/
+
+.popular {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10%;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    padding-left: 8%;
+    margin: 8%;
+    padding-right: 10%;
+
+}
+
+
+.item {
+    background-color: white;
+    margin: 10px;
+    width: 300px;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: rgb(243, 207, 6);
+}
+
+.fa-star.empty {
+    color: silver;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.top {
+    padding-left: 5%;
+}
+
+span {
+    color: #787885;
+}
+
+.see-more a {
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(224, 44, 109, 0.87);
+
+
+}
+
+.see-more {
+    padding-top: 20%;
+    padding-left: 60%;
+
 }
