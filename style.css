@@ -1,19 +1,20 @@
-/*------------------font---------------------*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*------------------font---------------------
+------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans&family=Luxurious+Roman&family=Merriweather&family=Poppins&display=swap');
 
 body{
     font-family: 'Anton', sans-serif;
-    font-family: 'Luxurious Roman', cursive;
     font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Luxurious Roman', cursive;
     font-family: 'Merriweather', serif;
-    font-family: 'Poppins', sans-serif
-
+    font-family: 'Poppins', sans-serif;
+    background-color: #ebe5e5fd;
+    
 }
 
-
-
 .h1-font {
-    font-size: 6s0px;
+    font-size: 65px;
 
 }
 
@@ -83,9 +84,9 @@ body{
 .items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
-    padding-left: 8%;
-    margin: 8%;
+    
+    padding-left: 9%;
+    margin: 9%;
     padding-right: 10%;
 
 
@@ -100,7 +101,7 @@ body{
     padding-left: 20px;
     padding-right: 20px;
     border: 2px solid white;
-    border-radius: 5px;
+    border-radius: 6px;
 
 }
 
@@ -148,13 +149,14 @@ span {
 /*-------------optional part-------------  
 ---------------------------------------*/
 .featured-image {
-    width: 95px;
+    
+    padding-right: 280px;
 }
 
 .featured{
     display: flex;
     justify-content: center;
-    padding-left: 15%;
+    padding-left: 17%;
     padding-right: 15%;
     padding-bottom: 10%;
 }
